@@ -26,7 +26,7 @@ Dans le cadre d'un projet académique, réalisation d'une application desktop  p
 
 ![6](https://user-images.githubusercontent.com/51321011/59149815-c75c2b80-8a1a-11e9-8851-8812d36aa995.PNG)
 
-* *** Gestion des adherents***
+* ***Gestion des adherents***
 
 ![7](https://user-images.githubusercontent.com/51321011/59149820-d347ed80-8a1a-11e9-820e-a4c89f01e634.PNG)
 
