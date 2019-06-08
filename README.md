@@ -1,12 +1,20 @@
 # Gestion d'une bibliotheque
-Dans le cadre d'un projet académique, réalisation d'une application desktop  permettant la gestion de la bibliothèque de l'école national supérieur d'informatique et analyse des systèmes.
-## Les interfaces
 
+
+:boy: **Réaliser par** <a href="https://gist.github.com/IsmailBarkani"> **Ismail Barkani** </a>
+
+# Les interfaces
+
+## :cinema: Animation 
+
+![test_app_biblio](https://user-images.githubusercontent.com/51321011/59150829-deeee080-8a29-11e9-8b99-f18f223badba.gif)
+
+## :ok: Images
 * ***Authentification***
 
 ![1](https://user-images.githubusercontent.com/51321011/59149722-66802380-8a19-11e9-9b6c-968ec91db8e7.PNG)
 
-* ***Inscription***
+*  ***Inscription***
 
 ![2](https://user-images.githubusercontent.com/51321011/59149730-86afe280-8a19-11e9-80ea-92ff12e03a41.PNG)
 
@@ -41,5 +49,6 @@ Dans le cadre d'un projet académique, réalisation d'une application desktop  p
 ![9](https://user-images.githubusercontent.com/51321011/59149905-e7401f00-8a1b-11e9-8b95-e4bb3d76bfc3.PNG)
 
 ![10](https://user-images.githubusercontent.com/51321011/59149900-e0191100-8a1b-11e9-8e80-b15efd0edb2c.PNG)
+
 
 
