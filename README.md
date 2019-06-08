@@ -1,7 +1,7 @@
 # Gestion d'une bibliotheque
 Dans le cadre d'un projet académique, réalisation d'une application desktop  permettant la gestion de la bibliothèque de l'école national supérieur d'informatique et analyse des systèmes **(ENSIAS)**
 
-:boy:**Réaliser par** :point_right: <a href="https://gist.github.com/IsmailBarkani"> **Ismail Barkani** </a>
+:boy:**Réaliser par** :point_right: <a href="https://github.com/IsmailBarkani"> **Ismail Barkani** </a>
 
 # Les interfaces
 
