@@ -2,6 +2,8 @@
 Dans le cadre d'un projet académique, réalisation d'une application desktop  permettant la gestion de la bibliothèque de l'école national supérieur d'informatique et analyse des systèmes.
 ## Les interfaces
 
+![vfg](https://user-images.githubusercontent.com/51321011/59150430-a3e9ae80-8a23-11e9-8c5b-bee7e7ea07b5.gif)
+
 * ***Authentification***
 
 ![1](https://user-images.githubusercontent.com/51321011/59149722-66802380-8a19-11e9-9b6c-968ec91db8e7.PNG)
