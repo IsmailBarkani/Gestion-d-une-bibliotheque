@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/MYSQL/mysql-connector-java-8.0.15/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/jfoenix.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/controlsfx-8.40.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/fontawesomefx-commons-8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/fontawesomefx-controls-8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/fontawesomefx-emojione-2.2.7-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/fontawesomefx-fontawesome-4.7.0-5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/fontawesomefx-glyphsbrowser-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/fontawesomefx-icons525-3.0.0-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/fontawesomefx-materialdesignfont-1.7.22-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/fontawesomefx-materialicons-2.2.0-5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/fontawesomefx-octicons-4.3.0-5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/linux/lib/fontawesomefx-weathericons-2.0.10-5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

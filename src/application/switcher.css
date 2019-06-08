@@ -1,0 +1,39 @@
+/*pour les button*/
+.tab{
+	-fx-pref-width:230;
+	-fx-pref-height:50;
+	-fx-background-color: #ec644b;
+}
+.tab-label
+{
+-fx-text-fill :white;
+-fx-font-size:14.0px;
+-fx-font-family: 'Century Gothic';
+    -fx-font-weight: bold;
+
+}
+
+.tab-header-background{
+	-fx-background-color: #ec644b;
+	
+}
+
+
+.jfx-tab-pane .tab-selected-line { 
+-fx-stroke:  #2e3131;
+-fx-stroke-width: 2.3pt;
+}
+.menu-button{
+	-fx-background-color: #ec644b;
+}
+.menu-button .label{
+	-fx-font-family: 'Century Gothic';
+	-fx-text-fill :white;
+}
+.menu-item .label{
+	-fx-font-family: 'Century Gothic';
+	-fx-text-fill :black;
+}
+.menu-item:focused .label {
+    -fx-text-fill: white;
+}

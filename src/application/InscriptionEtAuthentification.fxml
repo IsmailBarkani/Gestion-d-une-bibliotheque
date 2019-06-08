@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="590.0" prefWidth="1070.0" style="-fx-background-color: #2e3131;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.InscriptionEtAuthentification">
+   <children>
+      <Pane layoutX="533.0" prefHeight="590.0" prefWidth="535.0">
+         <children>
+            <MaterialDesignIconView fill="#ec644b" glyphName="LOCK_OPEN" layoutX="150.0" layoutY="176.0" size="40" />
+            <JFXTextField fx:id="pseudoc" focusColor="#ec644b" focusTraversable="false" labelFloat="true" layoutX="115.0" layoutY="233.0" maxWidth="356.0" minWidth="279.0" prefHeight="36.0" prefWidth="307.0" promptText="Nom utilisateur" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="motpassc" focusColor="#ec644b" focusTraversable="false" labelFloat="true" layoutX="114.0" layoutY="294.0" maxWidth="356.0" minWidth="291.0" prefHeight="36.0" prefWidth="307.0" promptText="Mote de passe" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton layoutX="114.0" layoutY="464.0" onAction="#Connecter" prefHeight="28.0" prefWidth="307.0" stylesheets="@connection.css" text="Connecter" textFill="#22a7f0">
+               <font>
+                  <Font name="Century Gothic" size="13.0" />
+               </font>
+            </JFXButton>
+            <FontAwesomeIconView fill="#cf3a3a" glyphName="USER" layoutX="99.0" layoutY="254.0" size="18" />
+            <FontAwesomeIconView fill="#ec644b" glyphName="KEY" layoutX="98.0" layoutY="313.0" size="18" />
+            <Label layoutX="196.0" layoutY="146.0" prefHeight="17.0" prefWidth="239.0" text="Se connecter" textFill="#ec644b">
+               <font>
+                  <Font name="Century Gothic" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="messagec" layoutX="86.0" layoutY="356.0" prefHeight="62.0" prefWidth="349.0" textAlignment="CENTER" textFill="#e83939" textOverrun="CLIP">
+               <font>
+                  <Font name="Century Gothic" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="590.0" prefWidth="535.0">
+         <children>
+            <JFXTextField fx:id="nom" focusColor="#3fc380" labelFloat="true" layoutX="14.0" layoutY="71.0" maxWidth="293.0" minWidth="217.0" prefHeight="34.0" prefWidth="217.0" promptText="Nom*" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="prenom" focusColor="#3fc380" labelFloat="true" layoutX="14.0" layoutY="153.0" maxWidth="293.0" minWidth="217.0" prefHeight="34.0" prefWidth="217.0" promptText="Prenom*" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="tel" focusColor="#3fc380" labelFloat="true" layoutX="14.0" layoutY="236.0" maxWidth="293.0" minWidth="217.0" prefHeight="34.0" prefWidth="217.0" promptText="Telephone*" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="pseudo" focusColor="#3fc380" labelFloat="true" layoutX="14.0" layoutY="317.0" maxWidth="293.0" minWidth="217.0" prefHeight="34.0" prefWidth="217.0" promptText="Nom utilisateur*" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="id" focusColor="#3fc380" labelFloat="true" layoutX="302.0" layoutY="71.0" maxWidth="293.0" minWidth="217.0" prefHeight="34.0" prefWidth="217.0" promptText="Code( CIN ou CNE)" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="adresse" focusColor="#3fc380" labelFloat="true" layoutX="302.0" layoutY="153.0" maxWidth="293.0" minWidth="217.0" prefHeight="34.0" prefWidth="217.0" promptText="Adresse" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="metiere" disable="true" focusColor="#3fc380" labelFloat="true" layoutX="302.0" layoutY="323.0" maxWidth="293.0" minWidth="217.0" prefHeight="34.0" prefWidth="217.0" promptText="Metiere" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="filiere" disable="true" focusColor="#3fc380" labelFloat="true" layoutX="302.0" layoutY="395.0" maxWidth="293.0" minWidth="217.0" prefHeight="34.0" prefWidth="217.0" promptText="Filiere" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="departement" disable="true" focusColor="#3fc380" labelFloat="true" layoutX="14.0" layoutY="395.0" maxWidth="293.0" minWidth="217.0" prefHeight="34.0" prefWidth="217.0" promptText="Departement" style="-fx-text-inner-color: #e8ecf1;">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXRadioButton layoutX="303.0" layoutY="209.0" onAction="#filiere" text="Etudiant(e)" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="13.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="group" />
+               </toggleGroup>
+            </JFXRadioButton>
+            <JFXRadioButton layoutX="303.0" layoutY="239.0" onAction="#departement" text="Professeur" textFill="WHITE" toggleGroup="$group">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton layoutX="303.0" layoutY="270.0" onAction="#metiere" text="Personne" textFill="WHITE" toggleGroup="$group">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXButton fx:id="inscrireB" disable="true" layoutX="112.0" layoutY="468.0" onAction="#inscrire" prefHeight="27.0" prefWidth="293.0" stylesheets="@inscription.css" text="Inscription">
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="message" layoutX="87.0" layoutY="523.0" prefHeight="36.0" prefWidth="343.0" textFill="#e46969">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="message1" layoutX="39.0" layoutY="523.0" prefHeight="36.0" prefWidth="372.0" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="message11" layoutX="401.0" layoutY="523.0" prefHeight="36.0" prefWidth="136.0" textFill="#3fc380">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="sld" prefHeight="590.0" prefWidth="535.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ImageView fitHeight="590.0" fitWidth="535.0">
+               <image>
+                  <Image url="@image.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="connectervous" layoutX="104.0" layoutY="514.0" onAction="#connecterSH" prefHeight="28.0" prefWidth="307.0" stylesheets="@slide.css" text="Connecter" textFill="#22a7f0">
+               <font>
+                  <Font name="Century Gothic" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="inscrirevous1" layoutX="103.0" layoutY="514.0" onAction="#inscriptionSH" prefHeight="28.0" prefWidth="307.0" stylesheets="@slide.css" text="Inscrire" textFill="#22a7f0">
+               <font>
+                  <Font name="Century Gothic" size="13.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="connecterlabel" layoutX="82.0" layoutY="475.0" prefHeight="27.0" prefWidth="372.0" text="Si vous avez déja un compte, connecter" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="inscrirelabel" layoutX="125.0" layoutY="465.0" prefHeight="46.0" prefWidth="279.0" text="Si vous n'avez pas un compte" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
