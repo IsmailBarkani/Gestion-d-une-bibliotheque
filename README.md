@@ -1,15 +1,15 @@
 # Gestion d'une bibliotheque
+Dans le cadre d'un projet académique, réalisation d'une application desktop  permettant la gestion de la bibliothèque de l'école national supérieur d'informatique et analyse des systèmes **(ENSIAS)**
 
-
-:boy: **Réaliser par** <a href="https://gist.github.com/IsmailBarkani"> **Ismail Barkani** </a>
+:boy:**Réaliser par** :point_right: <a href="https://gist.github.com/IsmailBarkani"> **Ismail Barkani** </a>
 
 # Les interfaces
 
-## :cinema: Animation 
+## :movie_camera: Animation 
 
 ![test_app_biblio](https://user-images.githubusercontent.com/51321011/59150829-deeee080-8a29-11e9-8b99-f18f223badba.gif)
 
-## :ok: Images
+## :camera: Images
 * ***Authentification***
 
 ![1](https://user-images.githubusercontent.com/51321011/59149722-66802380-8a19-11e9-9b6c-968ec91db8e7.PNG)
