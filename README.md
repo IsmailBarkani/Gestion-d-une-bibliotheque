@@ -22,7 +22,7 @@ Dans le cadre d'un projet académique, réalisation d'une application desktop  p
 
 ![3](https://user-images.githubusercontent.com/51321011/59149747-c7a7f700-8a19-11e9-931f-436fc66cf4c4.PNG)
 
-* **Gestion des documents***
+* ***Gestion des documents***
 
 ![6](https://user-images.githubusercontent.com/51321011/59149815-c75c2b80-8a1a-11e9-8851-8812d36aa995.PNG)
 
@@ -38,11 +38,11 @@ Dans le cadre d'un projet académique, réalisation d'une application desktop  p
 
 ![5](https://user-images.githubusercontent.com/51321011/59149805-ab588a00-8a1a-11e9-805e-b97caba3e47c.PNG)
 
-* ****historique et gestion des retours****
+* ***historique et gestion des retours***
 
 ![11](https://user-images.githubusercontent.com/51321011/59149891-c8da2380-8a1b-11e9-9300-a5fba8d4005f.PNG)
 
-## Autres
+## :paperclip: Autres
 
 ![8](https://user-images.githubusercontent.com/51321011/59149895-cf689b00-8a1b-11e9-805d-f1cbac10cc6e.PNG)
 
